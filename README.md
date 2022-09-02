@@ -1,6 +1,6 @@
 # TraceRecorder
 
-This project is based on Clang+LLVM 12.0, and has integrated our trace collecting tool TraceRecorder. TraceRecorder is implemented as a sanitize pass. It instruments the program source code at compile time. While running the instrumented program, the instrumented code will collect the execution trace.
+This project is based on Clang+LLVM 12.0, and has integrated the trace collecting tool TraceRecorder. TraceRecorder is implemented as a sanitizer pass. It instruments the program source code at compiling time, and will automatically collect the execution trace and the LLVM IR dynamic slice during the program running.
 
 ## Usage: 
 ```
